@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="jmk.png">
+  <link rel="icon" href="jmk.png">
+  <title>Drawings</title>
+  <link rel="stylesheet" type="text/css" media="all" href="css-global/cursor.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/artpage.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup.css">
+</head>
+
+<body>
+	<h1><a href="jmk.html"><img src="img/me.png" alt="About me!"></a> <a href="jmkDesign.html"><img src="img/graphic.png" alt="JMK designs"></a>
+    Art
+		<a href="jmkHobby.html"><img src="img/hobby.png" alt="JMK hobby"></a> <a href="jmkCA.html"><img src="img/ca.png" alt="JMK commissions & achievements"></a>
+	</h1>
+    <p><a href="http://x-k.deviantart.com/" target="_blank"><img src="http://i.deviantart.net/icons/da_favicon.ico">x-k@DeviantArt</a></p>
+
+  <div id="wrapper">
+      <ul id="portfolio" class="clearfix">	      
+      <li><a href="img/art/2016.jpg" title="Dark Red"><img src="img/art/2016p.jpg" alt="Dark Red, February 2O16"></a></li>  	  
+      <li><a href="img/art/lovely.jpg" title="Lovely~"><img src="img/art/lovelyp.jpg" alt="Lovely~, February 2O16"></a></li>     
+      <li><a href="img/art/O2015.jpg" title="Andro!d"><img src="img/art/O2015p.jpg" alt="October 2O15"></a></li>
+	  
+	  <li><a href="img/art/may14.jpg" title="La Tale"><img src="img/art/may14p.jpg" alt="May 2014"></a></li>
+      <li><a href="img/art/pimg1.jpg" title="Charcoal on Paper"><img src="img/art/pimg1p.jpg" alt="Charcoal drawing on paper."></a></li>     
+      <li><a href="img/art/pimg2.jpg" title="Stil life"><img src="img/art/pimg2p.jpg" alt="Charcoal drawing on paper. 2013"></a></li>
+    </ul>
+  </div>
+
+<header>
+    <a href="http://janemk.tumblr.com/" target="_blank"><img src="img/tumblr.png" alt="JaneMK@Tumblr"></a>
+    <a href="http://www.facebook.com/Ms.JMK" target="_blank"><img src="img/facebook.png" alt="Ms.JMK@FB"></a>
+    <a href="http://janemk.com"><img class="logo" src="img/JMK-logotype.gif" alt="JMK"></a>
+    <a href="http://twitter.com/JaneM_K" target="_blank"><img src="img/tweet.png" alt="JaneM_K@Twitter"></a>
+    <a href="mailto:Ms.JaneMK@gmail.com" target="_blank"><img src="img/email.png" alt="Ms.JaneMK@gmail.com"></a>
+</header>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $('#portfolio').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    image: {
+      cursor: null,
+      titleSrc: 'title'
+    },
+    gallery: {
+      enabled: true,
+      preload: [0,1],
+      navigateByImgClick: true
+		}
+  });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="jmk.png">
+  <link rel="icon" href="jmk.png">
+  <title>Hobbies</title>
+  <link rel="stylesheet" type="text/css" media="all" href="css-global/cursor.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/artpage.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup.css">
+</head>
+
+<body>
+    <h1><a class="jmk1" href="jmkArt.html"><img src="img/art.png" alt="JMK art"></a> <a href="jmkDesign.html"><img src="img/graphic.png" alt="JMK designs"></a>
+	Hobbies 
+	<a href="jmk.html"><img src="img/me.png" alt="About me!"></a> <a href="jmkCA.html"><img src="img/ca.png" alt="JMK commissions & achievements"></a></h1>
+	<p><a href="https://vimeo.com/janemk" target="_blank"><img src="vimeo.png">janemk@Vimeo</a></p>
+	
+  <div id="wrapper">
+    <ul id="portfolio" class="clearfix"> 
+	  <li><a href="img/hobby/p1.jpg" title="Boston Garden Memorial Day"><img src="img/hobby/p1p.jpg" alt="Memorial Day 2O13"></a></li>   
+      <li><a href="img/hobby/p2.jpg" title="Spider"><img src="img/hobby/p2p.jpg" alt="Korea 2O11"></a></li>
+      <li><a href="img/hobby/bumperjmk.gif" title="Bumper"><img src="img/hobby/bumperjmkp.jpg" alt="Bumper 2O15"></a></li>
+      
+	  <li><a href="img/hobby/stopmotion.gif" title="Paper cutout stopmotion animation"><img src="img/hobby/stopmotionp.jpg" alt="Paper cutout animation 2O15"></a></li>
+	  <li><a href="img/hobby/duck.gif" title="Simple animation"><img src="img/hobby/duckp.jpg" alt="Simple gif 2O15"></a></li>
+	  <li><a href="img/hobby/walky.gif" title="Simple walk cycle"><img src="img/hobby/walkyp.jpg" alt="Walky 2O15"></a></li>
+    </ul>
+  </div>
+
+<header>
+    <a href="http://janemk.tumblr.com/" target="_blank"><img src="img/tumblr.png" alt="JaneMK@Tumblr"></a>
+    <a href="http://www.facebook.com/Ms.JMK" target="_blank"><img src="img/facebook.png" alt="Ms.JMK@FB"></a>
+    <a href="http://janemk.com"><img class="logo" src="img/JMK-logotype.gif" alt="JMK"></a>
+    <a href="http://twitter.com/JaneM_K" target="_blank"><img src="img/tweet.png" alt="JaneM_K@Twitter"></a>
+    <a href="mailto:Ms.JaneMK@gmail.com" target="_blank"><img src="img/email.png" alt="Ms.JaneMK@gmail.com"></a>
+</header>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $('#portfolio').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    image: {
+      cursor: null,
+      titleSrc: 'title'
+    },
+    gallery: {
+      enabled: true,
+      preload: [0,1],
+      navigateByImgClick: true
+		}
+  });
+});
+</script>
+
+</body>
+</html>
